@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Réinitialisation de la marge et du rembourrage par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style de base pour le corps de la page */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style pour le conteneur principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style pour la carte */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour l'en-tête de la carte */
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Style pour le corps de la carte */
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Style pour les images dans le Swiper */
+  .mySwiper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Ajoutez des styles supplémentaires au besoin */
+  
